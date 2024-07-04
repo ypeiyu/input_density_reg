@@ -1,1 +1,1 @@
-# density_grad_reg
+# regularization for smoothing gradient of input marginal density
