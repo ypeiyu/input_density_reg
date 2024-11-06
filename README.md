@@ -9,7 +9,7 @@ This code implements an input marginal density regulariation from the following 
 
 ## Introduction
 Trustworthy machine learning necessitates meticulous regulation of model reliance on non-robust features. We propose a framework to regulate such features by attributing model predictions to the input. Within our approach, we identify a correlation between model reliance on non-robust features and smoothness of marginal density of the input samples. Hence, we uniquely regularize the gradients of the marginal density w.r.t.~the input features for robustness. We also devise an efficient implementation of our regularization to address the potential numerical instability of the underlying optimization process.
-![introduction](figs/input_density_reg.png)
+![introduction](figs/fig_intro.png)
 
 ## Prerequisites
 
